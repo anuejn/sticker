@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css" media="all">
+        
+        <script src="jquery.min.js"></script>
+        <script>
+            $(() => {
+                var sticker = $("body").html();
+                var result = "";
+                for(var i = 0; i < 500; i++) {
+                    result += sticker;
+                }
+                $("body").html(result);
+            });
+        </script>
+    </head>
+    <body>
+       <sticker>
+            <p>tausch-rausch.org</p>
+       </sticker>
+    </body>
+</html>

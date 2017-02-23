@@ -1,0 +1,52 @@
+@page {
+        size: a4 portrait;
+        margin: 0;
+        -webkit-print-color-adjust: exact;
+}
+
+body {
+    -webkit-print-color-adjust: exact;
+}
+
+html, body {
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    font-family: sans-serif;
+}
+
+sticker {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    
+    background-color: #f68d5c !important;
+    width: 5cm;
+    flex-grow: 1;
+    height: 3.5cm;
+    
+    page-break-before: always;
+    
+    background-image: url(logo.svg) !important;
+    background-position: 50% .5cm;
+    background-size: 4cm;
+    background-repeat: no-repeat;
+    
+}
+
+p {
+    position: absolute;
+    bottom: .5cm;
+    width: 100%;
+    text-align: center;
+    
+    padding: 0;
+    margin: 0;
+    color: #23414F;
+    
+    font-size: .41cm;
+}
