@@ -1,23 +1,98 @@
 <!doctype html>
 <html>
     <head>
-        <link rel="stylesheet" href="main.css" media="all">
-        
-        <script src="jquery.min.js"></script>
-        <script>
-            $(() => {
-                var sticker = $("body").html();
-                var result = "";
-                for(var i = 0; i < 500; i++) {
-                    result += sticker;
-                }
-                $("body").html(result);
-            });
-        </script>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+
+                box-sizing: border-box;
+            }
+
+            html, body {
+                width: 100%;
+                height: 100%;
+
+                font-size: 0;
+                letter-spacing: 0;
+                word-spacing: 0;
+                line-height: 0;
+            }
+
+            .sticker {
+                width: 20%;
+                height: 50%;
+
+                display: inline-block;
+
+                padding: .25cm;
+
+                position: relative;
+            }
+
+            svg {
+                width: 100%;
+                height: 100%;
+            }
+
+            .misc {
+                display: none;
+                font-family: sans-serif;
+
+                position: absolute;
+                bottom: .75cm;
+                left: 0;
+
+                z-index: 100;
+
+                font-size: .375cm;
+
+                text-align: center;
+
+                width: 100%;
+
+                font-weight: bold;
+            }
+        </style>
+
+        <link rel="stylesheet" href="tr.css">
     </head>
     <body>
-       <sticker>
-            <p>tausch-rausch.org</p>
-       </sticker>
+    <div class="sticker _0">
+        $svg$
+        <p class="misc">tausch-rausch.org</p>
+    </div>
+    <div class="sticker _1">
+        $svg$
+        <p class="misc">tausch-rausch.org</p>
+    </div>
+    <div class="sticker _2">
+        $svg$
+        <p class="misc">tausch-rausch.org</p>
+    </div>
+    <div class="sticker _3">
+        $svg$
+        <p class="misc">tausch-rausch.org</p>
+    </div>
+    <div class="sticker _4">
+        $svg$
+        <p class="misc">tausch-rausch.org</p>
+    </div>
+    <div class="sticker _5">
+        $svg$
+        <p class="misc">tausch-rausch.org</p>
+    </div>
+    <div class="sticker _6">
+        $svg$
+        <p class="misc">tausch-rausch.org</p>
+    </div>
+    <div class="sticker _7">
+        $svg$
+        <p class="misc">tausch-rausch.org</p>
+    </div>
+    <div class="sticker _8">
+        $svg$
+        <p class="misc">tausch-rausch.org</p>
+    </div>
     </body>
 </html>
