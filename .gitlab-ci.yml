@@ -1,0 +1,10 @@
+image: bynd/python-node
+
+deploy:
+  stage: build
+  script:
+    - make
+
+  artifacts:
+    paths:
+    - out/
