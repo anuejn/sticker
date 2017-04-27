@@ -1,7 +1,7 @@
 default: clean out/stickers.pdf
 
 out/stickers.pdf: node_modules in out/stickers.html
-	./node_modules/phantomjs-prebuilt/bin/phantomjs rasterize.js out/stickers.html out/stickers.pdf 29.7cm*10.5cm
+	./node_modules/phantomjs-prebuilt/bin/phantomjs rasterize.js out/stickers.html out/stickers.pdf 21cm*29.7cm
 
 out/stickers.html:
 	cd in/flyer; python f2c.py > ../tr.css

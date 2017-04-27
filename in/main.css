@@ -21,8 +21,8 @@ html, body {
 
 sticker {
     position: relative;
-    margin: 0;
-    padding: 0;
+    margin: 1;
+    padding: 1cm;
     
     background-color: #f68d5c !important;
     width: 5cm;
@@ -33,7 +33,7 @@ sticker {
     
     background-image: url(logo.svg) !important;
     background-position: 50% .5cm;
-    background-size: 4cm;
+    background-size: 1cm;
     background-repeat: no-repeat;
     
 }
