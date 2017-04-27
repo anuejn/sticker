@@ -1,6 +1,6 @@
 image: bynd/python-node
 
-deploy:
+make_stickers:
   stage: build
   script:
     - apt update && apt install -y libfontconfig1
