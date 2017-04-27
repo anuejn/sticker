@@ -3,7 +3,7 @@ image: bynd/python-node
 deploy:
   stage: build
   script:
-    - apt update && apt install make python-pip
+    - apt update && apt install libfontconfig1
     - pip install imageio
     - make
 
